@@ -5,7 +5,6 @@ RUN apt-get update && \
     apt-get --yes --no-install-recommends install \
       wireless-tools \
       mosquitto-clients \
-      jo
 
 WORKDIR app
 
